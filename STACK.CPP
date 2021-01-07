@@ -57,7 +57,7 @@ int main()
 	 {
        printf("Stack Overflow, can't add more element to stack.\n");
        return;
-     }
+         }
 	  struct stack * newNode = (struct stack *) malloc(sizeof(struct stack));
 	  newNode->data = element;
           newNode->next = top;
